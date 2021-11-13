@@ -1,7 +1,7 @@
 package com.tistory.jaimemin.advanced;
 
-import com.tistory.jaimemin.advanced.trace.logtrace.FieldLogTrace;
 import com.tistory.jaimemin.advanced.trace.logtrace.LogTrace;
+import com.tistory.jaimemin.advanced.trace.logtrace.ThreadLocalLogTrace;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,6 +10,6 @@ public class LogTraceConfig {
 
     @Bean
     public LogTrace logTrace() {
-        return new FieldLogTrace();
+        return new ThreadLocalLogTrace();
     }
 }
