@@ -37,3 +37,5 @@
 From 스프링 핵심 원리 - 고급편 (김영한 강사님)
 ---
 ThreadLocal 정리: https://jaimemin.tistory.com/2007
+
+템플릿 메서드 패턴과 콜백 패턴 간단 정리: https://jaimemin.tistory.com/2014
